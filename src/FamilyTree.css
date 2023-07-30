@@ -1,0 +1,99 @@
+.family-tree {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .family-member {
+    display: inline-block;
+    /* justifyContent:center; */
+    /* alignItems: center; */
+    /* text-align: center; */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  
+  .container {
+      display:flex;
+      gap: 2px;
+      justify-content: center;
+      padding: 8px;
+    }
+  
+  .common {
+      font-weight: bold; 
+      border-radius: 50%;
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      /* flex-direction: column; */
+      /* gap: 2px; */
+    }
+  
+    .male{
+      background-color: lightblue;
+    }
+  
+    .female{
+      background-color: pink;
+    }
+  
+    .name1 {
+      font-weight: bold;
+      background-color: pink;
+      border-radius: 50%;
+      width: 4rem;
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  
+  
+  
+  .children {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .box{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    height: 10vh; 
+    background-color: black; 
+    width: 96%;
+    position: absolute;
+    /* top: 50%; */
+    left: 1%;
+    margin-top:2rem;
+    color:white;
+    padding-left:15px ;
+    padding-right:15px ;
+  }
+  
+  
+  .box1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    /* background-color: lightblue;  */
+  }
